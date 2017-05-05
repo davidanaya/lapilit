@@ -22,7 +22,7 @@ module.exports = webpackMerge(commonConfig, {
       }
     }),
     new webpack.DefinePlugin({
-      'process.env.ENV': JSON.stringify(ENV);
+      'process.env.ENV': JSON.stringify(ENV)
     }),
     new webpack.LoaderOptionsPlugin({
       htmlLoader: {
