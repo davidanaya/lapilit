@@ -1,0 +1,15 @@
+:host {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15vw;
+
+  > * {
+    padding: 10px;
+  }
+}
+
+.picture {
+  border-radius: 50%;
+}

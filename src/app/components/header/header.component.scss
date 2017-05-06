@@ -1,0 +1,12 @@
+:host {
+  flex: 0 1 auto;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation > * {
+  text-decoration: none;
+  padding-left: 15px;
+}

@@ -1,0 +1,8 @@
+@import 'scss/globals';
+@import 'scss/content';
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
